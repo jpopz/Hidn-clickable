@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Message1 View Controller-->
+        <scene sceneID="u1j-aO-LjD">
+            <objects>
+                <viewController storyboardIdentifier="ChooseToFar1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zw9-sj-szO" customClass="Message1ViewController" colorLabel="IBBuiltInLabel-Green" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="ViewOfChooseToFar" id="PZo-q2-unE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="TooFarCancel" image="02-Map-Too_Far_Canvases-c.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QFv-1u-HF3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOk-jH-n91">
+                                <rect key="frame" x="183" y="805" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QFv-1u-HF3" firstAttribute="leading" secondItem="FnV-L0-RIK" secondAttribute="leading" id="aAw-C9-9Y1"/>
+                            <constraint firstItem="QFv-1u-HF3" firstAttribute="top" secondItem="PZo-q2-unE" secondAttribute="topMargin" constant="-44" id="fu0-hW-gtQ"/>
+                            <constraint firstItem="QFv-1u-HF3" firstAttribute="centerX" secondItem="PZo-q2-unE" secondAttribute="centerX" id="gnw-L8-WWE"/>
+                            <constraint firstItem="QFv-1u-HF3" firstAttribute="centerY" secondItem="PZo-q2-unE" secondAttribute="centerY" id="w7Y-13-htw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FnV-L0-RIK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NTB-lb-UOB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136.23188405797103" y="-98.4375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="02-Map-Too_Far_Canvases-c.jpg" width="640" height="1136"/>
+    </resources>
+</document>
